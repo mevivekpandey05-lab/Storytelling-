@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>अधूरी मोहब्बत का आखिरी वादा | रूचि ❤️ यशोदानंदन</title>
+    <link rel="stylesheet" href="Storytelling.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Rozha+One&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+  <script src="Storytelling.js"></script>
+<body data-mood="romantic">
+
+    <canvas id="ambient-particle-canvas"></canvas>
+
+    <div class="scroll-timeline-indicator">
+        <div class="scroll-timeline-fill" id="story-progress"></div>
+    </div>
+
+    <button class="music-hud-trigger" id="audio-toggle-btn" aria-label="Toggle Cinematic Audio">
+        <span class="hud-icon">🎵</span>
+        <span class="hud-text">संगीत शुरू करें</span>
+    </button>
+
+    <header class="hero-viewport" id="hero-trigger">
+        <div class="hero-vignette-overlay"></div>
+        <div class="hero-core-content">
+            <h1 class="hero-main-title">Adhoori Mohabbat Ka Aakhri Vaada</h1>
+            <div class="hero-couple-meta">रूचि <span class="pulsating-heart-node">❤️</span> यशोदानंदन</div>
+            <p class="hero-typewriter-tagline" id="dynamic-hero-subtitle">एक अधूरी दास्ताँ, जो वक्त की सरहदों से पार दिल के हर कोने में हमेशा ज़िंदा रहेगी...</p>
+            <button class="btn-cinematic-glow" id="start-journey-trigger">दास्ताँ का आगाज़ करें</button>
+        </div>
+    </header>
+
+    <section class="character-roster-section" id="characters-hub">
+        <h2 class="cinematic-section-title" data-reveal>किरदार-ए-मोहब्बत</h2>
+        <div class="character-grid-layout">
+            
+            <div class="character-glass-card" data-reveal>
+                <div class="avatar-wrapper ruchi-gradient-identity">
+                    <div class="avatar-ambient-pulse"></div>
+                </div>
+                <h3 class="character-display-name">रूचि </h3>
+                <p class="character-role-sub">भावनाओं का अनंत समंदर</p>
+                <ul class="character-attribute-list">
+                    <li><strong>व्यक्तित्व:</strong> अत्यंत भावुक, चुलबुली, मासूम और वफ़ा की प्रतिमूर्ति।</li>
+                    <li><strong>पृष्ठभूमि:</strong> खुशमिजाज परिवार, जहाँ रिश्तों और वादों को सबसे ऊपर रखा जाता है।</li>
+                    <li><strong>सपना:</strong> यशोदानंदन के साथ सात जन्मों का पवित्र बंधन और एक छोटा सा आशियाना।</li>
+                    <li><strong>ताकत:</strong> बिना किसी शर्त के बेपनाह और रूहानी मोहब्बत करने का अटूट हौसला।</li>
+                    <li><strong>कमजोरी:</strong> यशोदानंदन के बिना अपनी जिंदगी और वजूद की कल्पना भी न कर पाना।</li>
+                    <li class="journey-highlight"><strong>भावनात्मक संघर्ष:</strong> असीमित खुशियों से पल भर में सबसे गहरे सदमे और तन्हाई के भंवर में डूब जाना।</li>
+                </ul>
+            </div>
+
+            <div class="character-glass-card" data-reveal>
+                <div class="avatar-wrapper yashoda-gradient-identity">
+                    <div class="avatar-ambient-pulse"></div>
+                </div>
+                <h3 class="character-display-name">यशोदानंदन</h3>
+                <p class="character-role-sub">कर्तव्य, त्याग और प्रेम का प्रतीक</p>
+                <ul class="character-attribute-list">
+                    <li><strong>व्यक्तित्व:</strong> जिम्मेदार, साहसी, गंभीर पर अंदर से एक बेहद कोमल और हंसमुख दिल।</li>
+                    <li><strong>पृष्ठभूमि:</strong> जिम्मेदारियों से बंधा हुआ, जो अपनों की खुशी के लिए कुछ भी कर सकता है।</li>
+                    <li><strong>सपना:</strong> रूचि के चेहरे पर दुनिया की हर खुशी देखना और उसके सपनों को हकीकत बनाना।</li>
+                    <li><strong>ताकत:</strong> निडरता और आखरी सांस तक मोहब्बत और इंसानियत का फर्ज निभाना।</li>
+                    <li><strong>कमजोरी:</strong> रूचि की आँखों में एक भी आंसू का कतरा न बर्दाश्त कर पाना।</li>
+                    <li class="journey-highlight"><strong>रूचि के लिए प्रेम:</strong> उसे अपनी पूरी कायनात मानना और अंतिम विदा में भी एक अमर संदेश छोड़ जाना।</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <main class="story-chronology-container" id="story-matrix">
+
+        <section class="timeline-chapter-segment" id="chap-node-1" data-mood="romantic">
+            <div class="chapter-card-wrapper glass-blur-panel" data-reveal>
+                <span class="chapter-index-meta">अध्याय ०१</span>
+                <h3 class="chapter-core-title">Wo Pehli Mulakat</h3>
+                <p class="story-narrative-block" data-text="जब रूचि की नज़रें पहली बार यशोदानंदन से मिलीं, तो मानो वक़्त ठहर गया था। कॉलेज का वो पुराना गलियारा, हवाओं में घुली हल्की सी खुशबू और उसकी वो बेफिक्र मुस्कान। रूचि को पहली ही नज़र में एहसास हो गया था कि यह शख्स उसकी ज़िंदगी बदलने आया है। दोनों की ख़ामोश निगाहों ने वो सब कह दिया जो लफ्ज़ महीनों में नहीं कह पाते। मोहब्बत का यह पहला बीज दोनों के दिलों में चुपके से बोया जा चुका था।"></p>
+                
+                <div class="scenic-viewport container-love">
+                    <div class="ambient-love-lighting"></div>
+                    <div class="strolling-couple-assets">
+                        <div class="silhouette shadow-female"></div>
+                        <div class="silhouette shadow-male"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="timeline-chapter-segment" id="chap-node-2" data-mood="romantic">
+            <div class="chapter-card-wrapper glass-blur-panel" data-reveal>
+                <span class="chapter-index-meta">अध्याय ०२</span>
+                <h3 class="chapter-core-title">Saapno Ki Duniya</h3>
+                <p class="story-narrative-block" data-text="दिन बीतते गए और दोनों की मोहब्बत गहरी होती गई। दोनों ने आने वाले कल के हज़ारों ख़वाब बुने थे। एक छोटा सा आशियाना, शाम की चाय, लंबी बातें और उम्र भर का अटूट साथ। यशोदानंदन अक्सर रूचि के हाथों को अपने हाथों में लेकर चूमता और कहता था, 'रूचि, दुनिया इधर की उधर हो जाए, तुम्हारा यह हाथ मुझसे कभी नहीं छूटेगा।' उनकी दुनिया में सिर्फ खुशियाँ, खिलखिलाहटें और वादे थे।"></p>
+            </div>
+        </section>
+
+        <section class="timeline-chapter-segment" id="chap-node-3" data-mood="tragedy">
+            <div class="chapter-card-wrapper glass-blur-panel" data-reveal>
+                <span class="chapter-index-meta">अध्याय ०३</span>
+                <h3 class="chapter-core-title">Wo Kala Din</h3>
+                <p class="story-narrative-block" data-text="एक साधारण सी दोपहर, जब सब कुछ सामान्य था, अचानक एक जोरदार धमाके ने पूरी बस्ती को हिला कर रख दिया। यशोदानंदन के घर के पास अचानक सिलेंडर ब्लास्ट हो गया। चीख-पुकार मच गई। अपनी जान की परवाह किए बिना, यशोदानंदन दूसरों को बचाने के लिए उस धधकती आग में कूद पड़ा। लेकिन किस्मत को कुछ और ही मंजूर था; वह खुद उस भयानक आग की चपेट में आकर बुरी तरह झुलस गया। खुशियाँ पल भर में चीखों में तब्दील हो गईं।"></p>
+                
+                <div class="scenic-viewport container-accident">
+                    <div class="tragedy-flash-layer"></div>
+                    <div class="fire-glow-pulse-layer"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="timeline-chapter-segment" id="chap-node-4" data-mood="tragedy">
+            <div class="chapter-card-wrapper glass-blur-panel" data-reveal>
+                <span class="chapter-index-meta">अध्याय ०४</span>
+                <h3 class="chapter-core-title">Aakhri Saans</h3>
+                <p class="story-narrative-block" data-text="अस्पताल के आईसीयू के बाहर की वो दो रातें रूचि के लिए युगों जैसी लंबी थीं। वेंटिलेटर की हर एक बीप रूचि के दिल को चीर रही थी। वह डॉक्टरों के आगे गिड़गिड़ाई, मन्नतें मांगीं। दो दिनों तक जिंदगी और मौत की उस दर्दनाक जंग को लड़ने के बाद, आखिरकार यशोदानंदन की सांसों की डोर टूट गई। डॉक्टरों ने सफेद चादर खींच दी, और रूचि की हंसती-खेलती दुनिया पल भर में हमेशा के लिए उजड़ गई।"></p>
+                
+                <div class="scenic-viewport container-hospital">
+                    <div class="heart-monitor-beam"></div>
+                    <div class="hospital-dialogue-terminal" id="hospital-typing-node"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="timeline-chapter-segment" id="chap-node-5" data-mood="sad">
+            <div class="chapter-card-wrapper glass-blur-panel" data-reveal>
+                <span class="chapter-index-meta">अध्याय ०५</span>
+                <h3 class="chapter-core-title">Yaadon Ka Dard</h3>
+                <p class="story-narrative-block" data-text="यशोदानंदन के जाने के बाद कमरा खाली था, पर यादें भरी हुई थीं। खिड़की से आती ठंडी हवा, चाय का वो खाली कप, और दीवार पर टंगी उसकी तस्वीर। रूचि अक्सर कमरे के आईने में उसका अक्स ढूंढती, मानो वो अभी पीछे से आकर हँसते हुए कहेगा—'रूचि, रोना बंद करो।' पर सामने सिर्फ गहरा, अंधकारमय और जानलेवा सन्नाटा होता जो उसके वजूद को निगल रहा था।"></p>
+            </div>
+        </section>
+
+        <section class="timeline-chapter-segment" id="chap-node-6" data-mood="sad">
+            <div class="chapter-card-wrapper glass-blur-panel" data-reveal>
+                <span class="chapter-index-meta">अध्याय ०६</span>
+                <h3 class="chapter-core-title">Bhagwan Se Shikayat</h3>
+                <p class="story-narrative-block" data-text="एक रात, जब तन्हाई और दर्द बर्दाश्त की हद पार कर गए, रूचि घर के मंदिर के सामने जाकर बैठ गई। उसकी आँखों में आंसू और दिल में बेपनाह रोष था। उसने कांपते हाथों से मूर्ति की तरफ देखा और चिल्ला उठी: 'क्यों किया ऐसा मेरे साथ? क्या गुनाह था हमारा? जो निस्वार्थ होकर दूसरों को बचा रहा था, तुमने उसे ही छीन लिया? अगर तुम्हें उसे इतनी बेरहमी से वापस ही बुलाना था, तो हमारी राहें क्यों मिलाईं? क्यों दिखाए मुझे वो खूबसूरत सपने? जवाब दो ईश्वर, क्यों तोड़ दिया मेरी दुनिया को?!'"></p>
+                
+                <div class="scenic-viewport container-temple">
+                    <div class="temple-ray-beam"></div>
+                    <div class="temple-altar-diya">🕯️</div>
+                    <div class="temple-dialogue-box">"भगवान... मैंने कभी आपसे कुछ नहीं मांगा था। बस उसका साथ मांगा था।"</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="timeline-chapter-segment" id="chap-node-7" data-mood="hope">
+            <div class="chapter-card-wrapper glass-blur-panel" data-reveal>
+                <span class="chapter-index-meta">अध्याय ०७</span>
+                <h3 class="chapter-core-title">Nayi Shuruaat</h3>
+                <p class="story-narrative-block" data-text="शिकायतों और आंसुओं के समंदर के बाद, एक सुबह खिड़की से सूरज की पहली किरण रूचि के चेहरे पर पड़ी। उसे अपनी अंतरात्मा में यशोदानंदन की मंद आवाज़ सुनाई दी—'तुम्हें जीना होगा रूचि, मेरे लिए, मुस्कुराना होगा।' रूचि ने अपनी आँखों को पोंछा। उसने जाना कि मोहब्बत शरीर से नहीं, रूह से होती है। वह उठ खड़ी हुई, यशोदानंदन की यादों को अपनी कमजोरी नहीं, बल्कि अपनी ताकत बनाकर आगे बढ़ने के लिए।"></p>
+                
+                <div class="scenic-viewport container-hope">
+                    <div class="golden-sunrise-asset"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <section class="cinematic-quotes-viewport">
+        <div class="quote-card-element glass-blur-panel" data-reveal>
+            <span class="quote-author-tag">रूचि</span>
+            <p class="quote-hindi-string">"कुछ लोग जिंदगी में थोड़े समय के लिए आते हैं, लेकिन उनकी यादें पूरी जिंदगी साथ रहती हैं।"</p>
+        </div>
+        <div class="quote-card-element glass-blur-panel" data-reveal>
+            <span class="quote-author-tag">यशोदानंदन</span>
+            <p class="quote-hindi-string">"सच्चा प्यार साथ रहने का नाम नहीं, बल्कि दूर होकर भी दिल में जिंदा रहने का नाम है।"</p>
+        </div>
+        <div class="quote-card-element glass-blur-panel" data-reveal>
+            <span class="quote-author-tag">रूचि का ईश्वर से संवाद</span>
+            <p class="quote-hindi-string">"आपने उसे मुझसे छीन लिया, लेकिन उसकी दी हुई मोहब्बत कोई नहीं छीन सकता।"</p>
+        </div>
+    </section>
+
+    <section class="memory-gallery-viewport" id="gallery-hub">
+        <h2 class="cinematic-section-title" data-reveal>Beautiful Memories</h2>
+        <div class="gallery-masonry-layout">
+            <div class="gallery-photo-card glass-blur-panel" data-reveal>
+                <div class="gallery-artistic-placeholder art-first-meet"></div>
+                <h4>First Meeting</h4>
+                <p>वो गलियारा, वो धड़कन और वो पहली अनकही खूबसूरत बात।</p>
+            </div>
+            <div class="gallery-photo-card glass-blur-panel" data-reveal>
+                <div class="gallery-artistic-placeholder art-happy-moments"></div>
+                <h4>Happy Moments</h4>
+                <p>साथ हँसना, छोटी-छोटी बातों पर रूठना और प्यार से मनाना।</p>
+            </div>
+            <div class="gallery-photo-card glass-blur-panel" data-reveal>
+                <div class="gallery-artistic-placeholder art-dreams"></div>
+                <h4>Dreams Together</h4>
+                <p>तारों की छांव में बैठ कर बुने गए हज़ारों सुनहरे आने वाले कल।</p>
+            </div>
+            <div class="gallery-photo-card glass-blur-panel" data-reveal>
+                <div class="gallery-artistic-placeholder art-last-chat"></div>
+                <h4>Last Conversation</h4>
+                <p>आँखों में छुपा अनकहा दर्द और हमेशा साथ रहने का मौन वादा।</p>
+            </div>
+            <div class="gallery-photo-card glass-blur-panel" data-reveal>
+                <div class="gallery-artistic-placeholder art-memories-forever"></div>
+                <h4>Memories Forever</h4>
+                <p>वजूद अलग हुआ तो क्या, रूह आज भी एक दूसरे में समाई है।</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="epilogue-closing-screen">
+        <div class="epilogue-ambient-glow"></div>
+        <div class="epilogue-text-panel" data-reveal>
+            <p class="epilogue-main-message">
+                "सच्चा प्यार हमेशा साथ रहने से साबित नहीं होता।<br><br>
+                कभी-कभी कोई इंसान हमारे जीवन से चला जाता है, लेकिन उसका प्यार, उसकी सीख और उसकी यादें हमें जिंदगी भर मजबूत बनाती हैं।"
+            </p>
+            <div class="cinematic-end-title">समाप्त</div>
+        </div>
+    </section>
+
+    <footer class="cinematic-footer">
+        <p>© 2026 रूचि और यशोदानंदन की अमर प्रेम कहानी। डिज़ाइनर एवं डेवलपर द्वारा सप्रेम समर्पित।</p>
+    </footer>
+
+    <audio id="cinematic-soundtrack" loop preload="auto">
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
